@@ -1,0 +1,37 @@
+styles.css 
+#contenedor {
+    width: 80%;
+    margin: 0 auto;
+    padding: auto;
+}
+.imgen{
+    width: 30%;
+    margin: 1.4;
+    display: inline-block;
+    min-width: 100px;
+    margin-left: auto
+}
+.imagen img{
+    width: 80%;
+}
+.galeria{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+body{
+    text-align: center;
+    font-size: 40px;
+    background-color: lawngreen;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline red;
+    border-bottom: 4px red;
+}
